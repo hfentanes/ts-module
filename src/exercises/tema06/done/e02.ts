@@ -15,7 +15,6 @@ class Currency {
     let description = `The ${this.name} currency `;
     description += `has the code ${this.code} `;
     description += `and uses the symbol ${this.symbol}.`;
-
     console.log(description);
   }
 }
@@ -58,4 +57,4 @@ euroCurrency.describe();
 euroCurrency.describeBankNotes();
 
 // ----
-export { DetailedCurrency };
+export { Currency, DetailedCurrency };
